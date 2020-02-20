@@ -1,0 +1,23 @@
+.main {
+    width: 320px;
+    border: solid 1px black;
+}
+
+.movie-list {
+  padding: 40px 10px 20px 10px
+}
+
+.movie-list-item {
+    margin: -1px;
+    border: solid 1px black;
+    text-align: center;
+}
+
+.page-name {
+    margin: 0px;
+    border-style: hidden hidden solid hidden;
+    border-width: 1px;
+    border-color: black;
+    background-color: grey;
+    text-align: center;
+}
