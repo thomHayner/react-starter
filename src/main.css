@@ -1,16 +1,7 @@
 .main {
     width: 320px;
     border: solid 1px black;
-}
-
-.movie-list {
-  padding: 40px 10px 20px 10px
-}
-
-.movie-list-item {
-    margin: -1px;
-    border: solid 1px black;
-    text-align: center;
+    align-content: center;
 }
 
 .page-name {
@@ -20,4 +11,43 @@
     border-color: black;
     background-color: grey;
     text-align: center;
+}
+
+.search-area {
+    margin: 10px;
+    align-self: center;
+}
+
+.movie-list {
+  padding: 40px 10px 20px 10px;
+}
+
+.movie-list-item {
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
+    margin: 10px;
+    
+}
+
+.movie-list-item-title {
+    border: solid 1px black;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+.movie-list-item-button {
+    background-color: lightgreen;
+}
+
+.movie-list-item-button:focus  {
+    background-color: darkgreen;
+}
+
+#add-movie-button {
+    background-color: lightblue
+}
+
+#search-button {
+    background-color: lightsalmon
 }
